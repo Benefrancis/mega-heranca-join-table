@@ -13,9 +13,9 @@ import lombok.Data;
 public class PJ extends Pessoa {
 
     @Column(name = "NR_CNPJ")
-    String CNPJ;
+    private String CNPJ;
 
     @Column(name = "NR_IE")
-    String inscricaoEstadual;
+    private String inscricaoEstadual;
 
 }

@@ -25,13 +25,13 @@ public abstract class Pessoa {
             initialValue = 1
     )
     @Column(name = "ID_PESSOA")
-    Long id;
+    private Long id;
 
     @Column(name = "NM_PESSOA")
-    String nome;
+    private String nome;
 
     @Column(name = "DT_NASCIMENTO")
-    LocalDate nascimento;
+    private LocalDate nascimento;
 
 
 }

@@ -15,8 +15,10 @@ import lombok.Data;
 public class PF extends Pessoa {
 
     @Column(name = "NR_CPF")
-    String CPF;
+    private String CPF;
 
     @Column(name = "NR_RG")
-    String RG;
+    private String RG;
+
+
 }
